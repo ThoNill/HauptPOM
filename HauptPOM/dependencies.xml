@@ -57,14 +57,6 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>thomas.nill</groupId>
-			<artifactId>druck</artifactId>
-			<version>1.4</version>
-
-			<scope>system</scope>
-			<systemPath>/home/javaman/all_workspaces/Jworkspace_janus/GeneralEditor/libs/druck.jar</systemPath>
-		</dependency>
 				
 		
 		<dependency>
@@ -116,9 +108,6 @@
 			<artifactId>itextpdf</artifactId>
 			<version>5.4.2</version>
 		</dependency>
-			
-		
-		
 		
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
