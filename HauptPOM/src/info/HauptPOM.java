@@ -1,9 +1,20 @@
 package info;
 
-public class HauptPOM {
+import java.util.logging.Logger;
 
-	public static void main(String[] args) {
-		System.out.println("Das ist die HauptPOM");
-	}
+public class HauptPOM {
+    private static final Logger LOG = Logger.getAnonymousLogger();
+
+    public HauptPOM() {
+        super();
+    }
+
+    public static void main(String[] args) {
+        new HauptPOM().printInfo();
+    }
+
+    protected void printInfo() {
+        LOG.info("Das ist die HauptPOM");
+    }
 
 }
